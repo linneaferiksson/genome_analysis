@@ -1,0 +1,98 @@
+Project plan for the Genome Analysis course
+●  What is the aim of your project? What question(s) do you want to answer with your research?
+The aim of this project is to characterize the genetic differences causing divergence in the development of the bat forelimb and hindlimb. 
+This has been done in the paper I’m working with, so another aim of the project is to try to recreate some parts of the results they got by using the same methods and procedures as they used. A comparison of our result against their result will tell us how likely their theory is. 
+
+●  What type of analyses will you perform in order to answer these questions? And in which order? Which softwares will you use? Are there any time bottlenecks? If so, can you identify any analyses that will require longer times?
+The analyses I will perform in order to answer these questions, and the order in which i will perform them can be seen in the table below. The DNA and RNA assembly seems to be the most time consuming parts of this project. 
+● Reads preprocessing: trimming + quality check (before and after): Illumina - Trimmomatic
+● Genome assembly of Illumina reads: Illumina - SOAPdenovo/Spades  
+● Assembly quality assessment: Illumina - FastQC
+● Transcriptome assembly:  Illumina - RNA Trinity
+● Structural and functional annotation: Eukaryotes - Maker2
+● Differential expression analyses: Count features - Htseq
+● Biological interpretation of the results: MUMmerplot
+
+Analysis
+Type
+Software
+Runtime
+Read quality control
+Illumina
+FastQC
+3 min
+Reads preprocessing
+Illumina
+Trimmomatic
+1-10 min per file
+DNA assembly
+Illumina
+SOAP denovo
+1.5 h (2 cores)
+RNA assembly
+Illumina RNA
+Trinity
+1.5 h (2 cores)
+Assembly evaluation
+FASTA sequences
+MUMmerplot
+< 5min
+Annotation
+Eukaryotes
+Maker2
+First round 3.5 h (4 cores). Following rounds 30-60 min (4 cores)
+Aligner
+DNA and bacterial RNA
+BWA (ChIP) / BWA (WGS)
+1-2 min per file (2 cores) / 1.5 h (2 cores)
+Aligner
+Eukaryotic RNA
+Tophat
+5-30 min per file (2 cores)
+Differential expression
+Count features
+Htseq
+< 5 min (2 cores)
+Visualization
+Genomes
+IGV, Artemis and/or ACT
+
+
+Homology search
+Nucleotide sequences 
+Blastn (BLAST)
+
+
+
+
+
+
+
+
+
+
+
+●  What is the time frame for your project? Can you define some time checkpoints for when you should have finished certain analyses? When do you need to have finished running all the softwares so you can start to analyze the data?
+In the time frame for this project I’ve added deadlines for the project plan and for when the different methods should be finished. 
+4/4 - Project planning and finish the project plan
+12/4 - Genome assembly
+24/4 - Transcriptome assembly
+⅖ - Genome annotation
+7/5 - RNA mapping
+
+●  What types of data will you be handling? How much space do you need in order to store those data? (You might not know that in advance, but pay attention to this as you work and manage your available space!)
+I expect that this project will generate a lot of data, which is why i will try to run and store most of my work and methods on a cloud via UPPMAX. 
+●  How will you organize your data? (see “Project Organization”)
+The organization of my data is really important in this project, which is why i will organize it according to this:
+Metadata:  I will save my metadata, i.e. information about my data, in excel sheet. These tables will be read by computers and they need to be structured to avoid parsing errors. In my case the metadata will consist out of information about my sequencing data and how it was generated. 
+
+Data: My data will be saved in plain text files as .tsv, i.e. tab-separated values, or as .csv means comma-separated values. Also, the data files should be compressed, especially big data files. 
+
+Data and code should be separated: My code will be kept in a repository with version control through GitHub. Small data files will also be included in my repository, but big data files will never be kept in the repository. Small data files can be final results, figures and text.
+
+Unique and informative names: The read files I’ll be working with will be named as their SRA accessions. The raw data will have the original names. I will also use symbolic links that will create shortcuts to the original files, but they will have different names
+
+Folder and file naming: I will be using numbers
+
+
+
