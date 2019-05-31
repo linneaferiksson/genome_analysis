@@ -1,0 +1,610 @@
+[Error] Can not open input scaffold file.
+
+Version:
+	1.12
+
+Contact:
+	soap@genomics.org.cn
+
+Usage:
+	GapCloser [options]
+	-a	<string>	input scaffold file name, required.
+	-b	<string>	input library info file name, required.
+	-o	<string>	output file name, required.
+	-l	<int>		maximum read length (<=155), default=100.
+	-p	<int>		overlap param(<=31), default=25.
+	-t	<int>		thread number, default=1.
+	-h	-?		output help information.
+
+[Error] Can not open input scaffold file.
+
+Version:
+	1.12
+
+Contact:
+	soap@genomics.org.cn
+
+Usage:
+	GapCloser [options]
+	-a	<string>	input scaffold file name, required.
+	-b	<string>	input library info file name, required.
+	-o	<string>	output file name, required.
+	-l	<int>		maximum read length (<=155), default=100.
+	-p	<int>		overlap param(<=31), default=25.
+	-t	<int>		thread number, default=1.
+	-h	-?		output help information.
+
+[Error] Can not open input scaffold file.
+
+Version:
+	1.12
+
+Contact:
+	soap@genomics.org.cn
+
+Usage:
+	GapCloser [options]
+	-a	<string>	input scaffold file name, required.
+	-b	<string>	input library info file name, required.
+	-o	<string>	output file name, required.
+	-l	<int>		maximum read length (<=155), default=100.
+	-p	<int>		overlap param(<=31), default=25.
+	-t	<int>		thread number, default=1.
+	-h	-?		output help information.
+
+[Error] Can not open input scaffold file.
+
+Version:
+	1.12
+
+Contact:
+	soap@genomics.org.cn
+
+Usage:
+	GapCloser [options]
+	-a	<string>	input scaffold file name, required.
+	-b	<string>	input library info file name, required.
+	-o	<string>	output file name, required.
+	-l	<int>		maximum read length (<=155), default=100.
+	-p	<int>		overlap param(<=31), default=25.
+	-t	<int>		thread number, default=1.
+	-h	-?		output help information.
+
+Program: GapCloser
+Version: 1.12
+
+Parameters:
+    -a (scaffold file): output_soapdenovo.scafSeq
+    -b (config file):   soapdenovo_wgs.config
+    -o (output file):   output_soapdenovo.new.scafSeq
+    -l (max read len):  100
+    -p (overlap para):  25
+    -t (thread num):    2
+
+
+>>>>>>>>>>hash initializing<<<<<<<<<<
+
+counting reads
+in lib: 
+    total reads sum:     1157107
+    Paired-end reads sum: 925444
+in lib: 
+    total reads sum:     5436028
+    Paired-end reads sum: 4995812
+in lib: 
+    total reads sum:     3085926
+    Paired-end reads sum: 2975324
+in lib: 
+    total reads sum:     945207
+    Paired-end reads sum: 716724
+in lib: 
+    total reads sum:     987523
+    Paired-end reads sum: 785928
+in lib: 
+    total reads sum:     690238
+    Paired-end reads sum: 525062
+
+reads sum: 12302029
+spent time: 27s
+reads counted
+
+allocating memorys
+spent time: 0s
+memorys allocated
+
+initializing reads
+in lib: 
+in lib: 
+in lib: 
+in lib: 
+in lib: 
+in lib: 
+spent time: 31s
+reads initialized
+
+sorting reads in reversed direction
+spent time: 4s
+reads sorted
+
+initializing hash on reversed reads
+kmers sum: 4650832
+spent time: 3s
+hash initialized
+
+reversing reads
+spent time: 4s
+reads reversed
+
+sorting reads in forward direction
+spent time: 3s
+reads sorted
+
+initializing hash on forward reads
+kmers sum: 8898766
+spent time: 4s
+hash initialized
+
+marking unique reads
+spent time: 0s
+unique reads marked
+
+sorting reads by serial number
+spent time: 2s
+reads sorted
+
+spent total time: 78s
+>>>>>>>>>>hash initialization finished<<<<<<<<<<
+
+>>>>>>>>>>scaffold initializing<<<<<<<<<<
+
+counting scaffolds
+scaffolds sum: 104456
+spent time: 1s
+scaffolds counted
+
+allocating memorys
+spent time: 0s
+memorys allocated
+
+initializing scaffolds
+spent time: 0s
+scaffolds initialized
+
+scaffold sum 104456
+spent total time: 1s
+>>>>>>>>>>scaffold initialization finished<<<<<<<<<<
+
+>>>>>>>>>>assembling<<<<<<<<<<
+
+constructing 1 scaffold
+constructing 2 scaffold
+constructing 3 scaffold
+constructing 4 scaffold
+constructing 5 scaffold
+constructing 6 scaffold
+constructing 7 scaffold
+constructing 8 scaffold
+constructing 9 scaffold
+constructing 10 scaffold
+constructing 11 scaffold
+constructing 12 scaffold
+constructing 13 scaffold
+constructing 14 scaffold
+constructing 15 scaffold
+constructing 16 scaffold
+constructing 17 scaffold
+constructing 18 scaffold
+constructing 19 scaffold
+constructing 20 scaffold
+constructing 21 scaffold
+constructing 22 scaffold
+constructing 23 scaffold
+constructing 24 scaffold
+constructing 25 scaffold
+constructing 26 scaffold
+constructing 27 scaffold
+constructing 28 scaffold
+constructing 29 scaffold
+constructing 30 scaffold
+constructing 31 scaffold
+constructing 32 scaffold
+constructing 33 scaffold
+constructing 34 scaffold
+constructing 35 scaffold
+constructing 36 scaffold
+constructing 37 scaffold
+constructing 38 scaffold
+constructing 39 scaffold
+constructing 40 scaffold
+constructing 41 scaffold
+constructing 42 scaffold
+constructing 43 scaffold
+constructing 44 scaffold
+constructing 45 scaffold
+constructing 46 scaffold
+constructing 47 scaffold
+constructing 48 scaffold
+constructing 49 scaffold
+constructing 50 scaffold
+constructing 51 scaffold
+constructing 52 scaffold
+constructing 53 scaffold
+constructing 54 scaffold
+constructing 55 scaffold
+constructing 56 scaffold
+constructing 57 scaffold
+constructing 58 scaffold
+constructing 59 scaffold
+constructing 60 scaffold
+constructing 61 scaffold
+constructing 62 scaffold
+constructing 63 scaffold
+constructing 64 scaffold
+constructing 65 scaffold
+constructing 66 scaffold
+constructing 67 scaffold
+constructing 68 scaffold
+constructing 69 scaffold
+constructing 70 scaffold
+constructing 71 scaffold
+constructing 72 scaffold
+constructing 73 scaffold
+constructing 74 scaffold
+constructing 75 scaffold
+constructing 76 scaffold
+constructing 77 scaffold
+constructing 78 scaffold
+constructing 79 scaffold
+constructing 80 scaffold
+constructing 81 scaffold
+constructing 82 scaffold
+constructing 83 scaffold
+constructing 84 scaffold
+constructing 85 scaffold
+constructing 86 scaffold
+constructing 87 scaffold
+constructing 88 scaffold
+constructing 89 scaffold
+constructing 90 scaffold
+constructing 91 scaffold
+constructing 92 scaffold
+constructing 93 scaffold
+constructing 94 scaffold
+constructing 95 scaffold
+constructing 96 scaffold
+constructing 97 scaffold
+constructing 98 scaffold
+constructing 99 scaffold
+constructing 100 scaffold
+constructing 101 scaffold
+constructing 102 scaffold
+constructing 103 scaffold
+constructing 104 scaffold
+constructing 105 scaffold
+constructing 106 scaffold
+constructing 107 scaffold
+constructing 108 scaffold
+constructing 109 scaffold
+constructing 110 scaffold
+constructing 111 scaffold
+constructing 112 scaffold
+constructing 113 scaffold
+constructing 114 scaffold
+constructing 115 scaffold
+constructing 116 scaffold
+constructing 117 scaffold
+constructing 118 scaffold
+constructing 119 scaffold
+constructing 120 scaffold
+constructing 121 scaffold
+constructing 122 scaffold
+constructing 123 scaffold
+constructing 124 scaffold
+constructing 125 scaffold
+constructing 126 scaffold
+constructing 127 scaffold
+constructing 128 scaffold
+constructing 129 scaffold
+constructing 130 scaffold
+constructing 131 scaffold
+constructing 132 scaffold
+constructing 133 scaffold
+constructing 134 scaffold
+constructing 135 scaffold
+constructing 136 scaffold
+constructing 137 scaffold
+constructing 138 scaffold
+constructing 139 scaffold
+constructing 140 scaffold
+constructing 141 scaffold
+constructing 142 scaffold
+constructing 143 scaffold
+constructing 144 scaffold
+constructing 145 scaffold
+constructing 146 scaffold
+constructing 147 scaffold
+constructing 148 scaffold
+constructing 149 scaffold
+constructing 150 scaffold
+constructing 151 scaffold
+constructing 152 scaffold
+constructing 153 scaffold
+constructing 154 scaffold
+constructing 155 scaffold
+constructing 156 scaffold
+constructing 157 scaffold
+constructing 158 scaffold
+constructing 159 scaffold
+constructing 160 scaffold
+constructing 161 scaffold
+constructing 162 scaffold
+constructing 163 scaffold
+constructing 164 scaffold
+constructing 165 scaffold
+constructing 166 scaffold
+constructing 167 scaffold
+constructing 168 scaffold
+constructing 169 scaffold
+constructing 170 scaffold
+constructing 171 scaffold
+constructing 172 scaffold
+constructing 173 scaffold
+constructing 174 scaffold
+constructing 175 scaffold
+constructing 176 scaffold
+constructing 177 scaffold
+constructing 178 scaffold
+constructing 179 scaffold
+constructing 180 scaffold
+constructing 181 scaffold
+constructing 182 scaffold
+constructing 183 scaffold
+constructing 184 scaffold
+constructing 185 scaffold
+constructing 186 scaffold
+constructing 187 scaffold
+constructing 188 scaffold
+constructing 189 scaffold
+constructing 190 scaffold
+constructing 191 scaffold
+constructing 192 scaffold
+constructing 193 scaffold
+constructing 194 scaffold
+constructing 195 scaffold
+constructing 196 scaffold
+constructing 197 scaffold
+constructing 198 scaffold
+constructing 199 scaffold
+constructing 200 scaffold
+constructing 201 scaffold
+constructing 202 scaffold
+constructing 203 scaffold
+constructing 204 scaffold
+constructing 205 scaffold
+constructing 206 scaffold
+constructing 207 scaffold
+constructing 208 scaffold
+constructing 209 scaffold
+constructing 210 scaffold
+constructing 211 scaffold
+constructing 212 scaffold
+constructing 213 scaffold
+constructing 214 scaffold
+constructing 215 scaffold
+constructing 216 scaffold
+constructing 217 scaffold
+constructing 218 scaffold
+constructing 219 scaffold
+constructing 220 scaffold
+constructing 221 scaffold
+constructing 222 scaffold
+constructing 223 scaffold
+constructing 224 scaffold
+constructing 225 scaffold
+constructing 226 scaffold
+constructing 227 scaffold
+constructing 228 scaffold
+constructing 229 scaffold
+constructing 230 scaffold
+constructing 231 scaffold
+constructing 232 scaffold
+constructing 233 scaffold
+constructing 234 scaffold
+constructing 235 scaffold
+constructing 236 scaffold
+constructing 237 scaffold
+constructing 238 scaffold
+constructing 239 scaffold
+constructing 240 scaffold
+constructing 241 scaffold
+constructing 242 scaffold
+constructing 243 scaffold
+constructing 244 scaffold
+constructing 245 scaffold
+constructing 246 scaffold
+constructing 247 scaffold
+constructing 248 scaffold
+constructing 249 scaffold
+constructing 250 scaffold
+constructing 251 scaffold
+constructing 252 scaffold
+constructing 253 scaffold
+constructing 254 scaffold
+constructing 255 scaffold
+constructing 256 scaffold
+constructing 257 scaffold
+constructing 258 scaffold
+constructing 259 scaffold
+constructing 260 scaffold
+constructing 261 scaffold
+constructing 262 scaffold
+constructing 263 scaffold
+constructing 264 scaffold
+constructing 265 scaffold
+constructing 266 scaffold
+constructing 267 scaffold
+constructing 268 scaffold
+constructing 269 scaffold
+constructing 270 scaffold
+constructing 271 scaffold
+constructing 272 scaffold
+constructing 273 scaffold
+constructing 274 scaffold
+constructing 275 scaffold
+constructing 276 scaffold
+constructing 277 scaffold
+constructing 278 scaffold
+constructing 279 scaffold
+constructing 280 scaffold
+constructing 281 scaffold
+constructing 282 scaffold
+constructing 283 scaffold
+constructing 284 scaffold
+constructing 285 scaffold
+constructing 286 scaffold
+constructing 287 scaffold
+constructing 288 scaffold
+constructing 289 scaffold
+constructing 290 scaffold
+constructing 291 scaffold
+constructing 292 scaffold
+constructing 293 scaffold
+constructing 294 scaffold
+constructing 295 scaffold
+constructing 296 scaffold
+constructing 297 scaffold
+constructing 298 scaffold
+constructing 299 scaffold
+constructing 300 scaffold
+constructing 301 scaffold
+constructing 302 scaffold
+constructing 303 scaffold
+constructing 304 scaffold
+constructing 305 scaffold
+constructing 306 scaffold
+constructing 307 scaffold
+constructing 308 scaffold
+constructing 309 scaffold
+constructing 310 scaffold
+constructing 311 scaffold
+constructing 312 scaffold
+constructing 313 scaffold
+constructing 314 scaffold
+constructing 315 scaffold
+constructing 316 scaffold
+constructing 317 scaffold
+constructing 318 scaffold
+constructing 319 scaffold
+constructing 320 scaffold
+constructing 321 scaffold
+constructing 322 scaffold
+constructing 323 scaffold
+constructing 324 scaffold
+constructing 325 scaffold
+constructing 326 scaffold
+constructing 327 scaffold
+constructing 328 scaffold
+constructing 329 scaffold
+constructing 330 scaffold
+constructing 331 scaffold
+constructing 332 scaffold
+constructing 333 scaffold
+constructing 334 scaffold
+constructing 335 scaffold
+constructing 336 scaffold
+constructing 337 scaffold
+constructing 338 scaffold
+constructing 339 scaffold
+constructing 340 scaffold
+constructing 341 scaffold
+constructing 342 scaffold
+constructing 343 scaffold
+constructing 344 scaffold
+constructing 345 scaffold
+constructing 346 scaffold
+constructing 347 scaffold
+constructing 348 scaffold
+constructing 349 scaffold
+constructing 350 scaffold
+constructing 351 scaffold
+constructing 352 scaffold
+constructing 353 scaffold
+constructing 354 scaffold
+constructing 355 scaffold
+constructing 356 scaffold
+constructing 357 scaffold
+constructing 358 scaffold
+constructing 359 scaffold
+constructing 360 scaffold
+constructing 361 scaffold
+constructing 362 scaffold
+constructing 363 scaffold
+constructing 364 scaffold
+constructing 365 scaffold
+constructing 366 scaffold
+constructing 367 scaffold
+constructing 368 scaffold
+constructing 369 scaffold
+constructing 370 scaffold
+constructing 371 scaffold
+constructing 372 scaffold
+constructing 373 scaffold
+constructing 374 scaffold
+constructing 375 scaffold
+constructing 376 scaffold
+constructing 377 scaffold
+constructing 378 scaffold
+constructing 379 scaffold
+constructing 380 scaffold
+constructing 381 scaffold
+constructing 382 scaffold
+constructing 383 scaffold
+constructing 384 scaffold
+constructing 385 scaffold
+constructing 386 scaffold
+constructing 387 scaffold
+constructing 388 scaffold
+constructing 389 scaffold
+constructing 390 scaffold
+constructing 391 scaffold
+constructing 392 scaffold
+constructing 393 scaffold
+constructing 394 scaffold
+constructing 395 scaffold
+constructing 396 scaffold
+constructing 397 scaffold
+constructing 398 scaffold
+constructing 399 scaffold
+constructing 400 scaffold
+constructing 401 scaffold
+constructing 402 scaffold
+constructing 403 scaffold
+constructing 404 scaffold
+constructing 405 scaffold
+constructing 406 scaffold
+constructing 407 scaffold
+constructing 408 scaffold
+constructing 409 scaffold
+constructing 410 scaffold
+constructing 411 scaffold
+constructing 412 scaffold
+constructing 413 scaffold
+constructing 414 scaffold
+constructing 415 scaffold
+constructing 416 scaffold
+constructing 417 scaffold
+constructing 418 scaffold
+constructing 419 scaffold
+constructing 420 scaffold
+constructing 421 scaffold
+constructing 422 scaffold
+constructing 423 scaffold
+constructing 424 scaffold
+constructing 425 scaffold
+constructing 426 scaffold
+constructing 427 scaffold
+constructing 428 scaffold
+constructing 429 scaffold
+constructing 430 scaffold
+constructing 431 scaffold
+constructing 432 scaffold
